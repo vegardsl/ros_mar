@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "server_wifi")
+set(server_wifi_MAINTAINER "vegard <vegard@todo.todo>")
+set(server_wifi_DEPRECATED "")
+set(server_wifi_VERSION "0.0.0")
+set(server_wifi_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "geometry_msgs")
+set(server_wifi_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "geometry_msgs")
+set(server_wifi_BUILDTOOL_DEPENDS "catkin")

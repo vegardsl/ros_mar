@@ -1,0 +1,11 @@
+obstacle_range: 3
+raytrace_range: 4.0
+footprint: [[0.42, 0.26], [0.42, -0.26], [-0.42, -0.26], [-0.42, 0.26]]
+#robot_radius: ir_of_robot
+inflation_radius: 0.65
+
+observation_sources: laser_scan_sensor point_cloud_sensor
+
+laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: mar/laser/scan, marking: true, clearing: true}
+
+point_cloud_sensor: {sensor_frame: sim_camera_depth_frame, data_type: PointCloud2, topic: /voxel_cloud, marking: true, clearing: true}

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "bluetooth_com")
+set(bluetooth_com_MAINTAINER "vegard <vegard@todo.todo>")
+set(bluetooth_com_DEPRECATED "")
+set(bluetooth_com_VERSION "0.0.0")
+set(bluetooth_com_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(bluetooth_com_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(bluetooth_com_BUILDTOOL_DEPENDS "catkin")

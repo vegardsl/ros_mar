@@ -1,0 +1,9 @@
+-I/opt/ros/indigo/include
+-I/usr/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="bluetooth_chat"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_KEYWORDS
+-o
+/home/vegard/mar_project_ws/build/bluetooth_chat/src/moc_chat.cpp
+/home/vegard/mar_project_ws/src/bluetooth_chat/src/chat.h

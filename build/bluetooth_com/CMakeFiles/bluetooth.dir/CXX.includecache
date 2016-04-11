@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vegard/mar_project_ws/build/bluetooth_com/src/moc_bluetooth.cpp
+
+/home/vegard/mar_project_ws/src/bluetooth_com/src/bluetooth.cpp
+
+/home/vegard/mar_project_ws/src/bluetooth_com/src/main.cpp
+

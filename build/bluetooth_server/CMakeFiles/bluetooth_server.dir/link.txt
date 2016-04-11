@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/bluetooth_server.dir/src/main.cpp.o  -o /home/vegard/mar_project_ws/devel/lib/bluetooth_server/bluetooth_server -rdynamic /home/vegard/Qt/5.5/gcc_64/lib/libQt5Core.so.5.5.1 /home/vegard/Qt/5.5/gcc_64/lib/libQt5Bluetooth.so.5.5.1 /home/vegard/Qt/5.5/gcc_64/lib/libQt5Core.so.5.5.1 -Wl,-rpath,/home/vegard/Qt/5.5/gcc_64/lib 

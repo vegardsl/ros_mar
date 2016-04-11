@@ -1,0 +1,11 @@
+<launch>
+  <node name="motor_driver_interface"
+         pkg="mobile_platform"
+        type="motor_driver_interface" />
+
+  <node name="server_wifi"
+         pkg="server_wifi"
+        type="server_wifi"
+        args="2000" />
+
+</launch>

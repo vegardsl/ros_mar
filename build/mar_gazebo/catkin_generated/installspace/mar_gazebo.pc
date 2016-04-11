@@ -1,0 +1,8 @@
+prefix=/home/vegard/mar_project_ws/install
+
+Name: mar_gazebo
+Description: Description of mar_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vegard/mar_project_ws/install/lib 
+Requires: 

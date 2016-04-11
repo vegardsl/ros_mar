@@ -1,0 +1,2 @@
+bluetooth_chat:bluetooth_server:mar_description:mar_gazebo:mobile_platform:robot_setup_tf:server_wifi
+-DCATKIN_DEVEL_PREFIX=/home/vegard/mar_project_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vegard/mar_project_ws/install -G Unix Makefiles

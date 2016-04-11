@@ -1,0 +1,109 @@
+#include <string>
+#include <ros/ros.h>
+#include <sensor_msgs/JointState.h>
+#include "geometry_msgs/Twist.h"
+#include <tf/transform_broadcaster.h>
+
+double left_wheels_angle = 0, 
+       right_wheels_angle = 0,
+       past_left_wheels_angle = 0, 
+       past_right_wheels_angle = 0,
+       left_wheels_angular_vel = 0, 
+       right_wheels_angular_vel = 0;
+
+double angle = 0, x_pos = 0, y_pos = 0;
+
+double L = 44, R = 5;
+
+ros::Time t_past, t_now;
+ros::Duration t_delta;
+
+double left_side_speed(int angular_setting, int linear_setting)
+{
+  double left_wheel_angular_speed;
+  
+  left_wheel_angular_speed = (2*linear_setting - L*angular_setting)/2;
+
+  return left_wheel_angular_speed;
+}
+
+double right_side_speed(int angular_setting, int linear_setting)
+{
+  double right_wheel_angular_speed;
+
+  right_wheel_angular_speed = (2*linear_setting + L*angular_setting)/2;
+
+  return right_wheel_angular_speed;
+}
+
+void settingUpdateCallback(const geometry_msgs::Twist::ConstPtr& msg)
+{
+  int linear_speed_setting, angular_speed_setting;
+
+  linear_speed_setting = msg->linear.x;
+  angular_speed_setting = 10*msg->angular.z;
+  
+  left_wheels_angular_vel = left_side_speed(angular_speed_setting, linear_speed_setting);
+  right_wheels_angular_vel = right_side_speed(angular_speed_setting, linear_speed_setting);
+
+  t_now = ros::Time::now();
+  t_delta = t_now - t_past;
+  double secs = t_delta.toSec();
+
+  left_wheels_angle = past_left_wheels_angle + left_wheels_angular_vel*secs;
+  right_wheels_angle = past_right_wheels_angle + right_wheels_angular_vel*secs;
+
+  printf("Left wheel angle: %f\n",left_wheels_angle);
+  printf("Right wheel angle: %f\n",right_wheels_angle);
+}
+
+int main(int argc, char** argv) {
+  ros::init(argc, argv, "state_publisher");
+  ros::NodeHandle n;
+  ros::Publisher joint_pub = n.advertise<sensor_msgs::JointState>("joint_states", 1);
+  tf::TransformBroadcaster broadcaster;
+  ros::Rate loop_rate(30);
+
+  const double degree = M_PI/180;
+
+  // message declarations
+  geometry_msgs::TransformStamped odom_trans;
+  sensor_msgs::JointState joint_state;
+  odom_trans.header.frame_id = "odom";
+  odom_trans.child_frame_id = "base_link";
+
+  ros::Subscriber sub = n.subscribe("cmd_vel", 1, settingUpdateCallback);
+
+  t_past = ros::Time::now();
+
+  while (ros::ok())
+  {
+    //Update joint_state
+    joint_state.header.stamp = ros::Time::now();
+    joint_state.name.resize(4);
+    joint_state.position.resize(4);
+    joint_state.name[0] ="left_front_wheel_joint";
+    joint_state.position[0] = left_wheels_angle;
+    joint_state.name[1] ="right_front_wheel_joint";
+    joint_state.position[1] = right_wheels_angle;
+    joint_state.name[2] ="left_back_wheel_joint";
+    joint_state.position[2] = left_wheels_angle;
+    joint_state.name[3] ="right_back_wheel_joint";
+    joint_state.position[3] = right_wheels_angle;
+
+    // update transform
+    // (moving in a circle with radius=2)
+    odom_trans.header.stamp = ros::Time::now();
+    odom_trans.transform.translation.x = cos(angle)*2;
+    odom_trans.transform.translation.y = sin(angle)*2;
+    odom_trans.transform.translation.z = .08;
+    odom_trans.transform.rotation = tf::createQuaternionMsgFromYaw(angle+M_PI/2);
+    
+    //send the joint state and transform
+    joint_pub.publish(joint_state);
+    broadcaster.sendTransform(odom_trans);
+
+    ros::spinOnce();
+    loop_rate.sleep();
+  }
+}

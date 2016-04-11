@@ -1,0 +1,8 @@
+prefix=/home/vegard/mar_project_ws/devel
+
+Name: bluetooth_chat
+Description: Description of bluetooth_chat
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vegard/mar_project_ws/devel/lib 
+Requires: 

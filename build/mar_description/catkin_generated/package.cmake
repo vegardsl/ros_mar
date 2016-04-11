@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mar_description")
+set(mar_description_MAINTAINER "vegard <vegard@todo.todo>")
+set(mar_description_DEPRECATED "")
+set(mar_description_VERSION "0.0.0")
+set(mar_description_BUILD_DEPENDS )
+set(mar_description_RUN_DEPENDS )
+set(mar_description_BUILDTOOL_DEPENDS "catkin")

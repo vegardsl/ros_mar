@@ -1,0 +1,17 @@
+<launch>
+  <param name="robot_description" command="cat $(find mobile_platform)/urdf/mar_model.urdf" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+
+  <node name="state_publisher" pkg="mobile_platform" type="state_publisher" />
+
+  <node name="keyboard_publisher"
+         pkg="mobile_platform"
+        type="keyboard_publisher" />
+
+  <node name="manual_move"
+         pkg="mobile_platform"
+        type="manual_move" />
+</launch>
+
+
