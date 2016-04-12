@@ -8,6 +8,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  sensor_msgs
+  image_transport
+  cv_bridge
 )
 
 ## System dependencies are found with CMake's conventions
@@ -187,6 +190,10 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+find_package(OpenCV)
+include_directories(${OpenCV_INCLUDE_DIRS})
+#target_link_libraries(my_awesome_library ${OpenCV_LIBRARIES})
+
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(server_wifi src/server_wifi.cpp)
@@ -196,3 +203,7 @@ add_dependencies(server_wifi server_wifi_generate_messages_cpp)
 add_executable(remote_move src/remote_move.cpp)
 target_link_libraries(remote_move ${catkin_LIBRARIES})
 add_dependencies(remote_move server_wifi_generate_messages_cpp)
+
+add_executable(video_server src/video_server.cpp)
+target_link_libraries(video_server ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(video_server  server_wifi_generate_messages_cpp)

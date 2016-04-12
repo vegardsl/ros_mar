@@ -54,13 +54,13 @@ void settingUpdateCallback(const geometry_msgs::Twist::ConstPtr& msg)
 
   linear_speed_setting = (int)scaledUpLinearSetting;
   angular_speed_setting = (int)scaledUpAngularSetting;
-
-    printf("linear original: %f \n",msg->linear.x);
+  /*
+  printf("linear original: %f \n",msg->linear.x);
   printf("angular original: %f \n",msg->angular.z);
 
   printf("linear_speed_setting: %d \n",linear_speed_setting);
   printf("angular_speed_setting: %d \n",angular_speed_setting);
-
+  */
 
   message[0] = 58; // Send ":" to initiate speed update.
   iOut = write(fd, message, 1);

@@ -772,16 +772,117 @@ clean: bluetooth_chat/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 # Convenience name for "all" pass in the directory.
 server_wifi/all: server_wifi/CMakeFiles/remote_move.dir/all
 server_wifi/all: server_wifi/CMakeFiles/server_wifi.dir/all
+server_wifi/all: server_wifi/CMakeFiles/video_server.dir/all
 .PHONY : server_wifi/all
 
 # Convenience name for "clean" pass in the directory.
+server_wifi/clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 server_wifi/clean: server_wifi/CMakeFiles/remote_move.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 server_wifi/clean: server_wifi/CMakeFiles/server_wifi.dir/clean
+server_wifi/clean: server_wifi/CMakeFiles/video_server.dir/clean
 .PHONY : server_wifi/clean
 
 # Convenience name for "preinstall" pass in the directory.
 server_wifi/preinstall:
 .PHONY : server_wifi/preinstall
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_py"
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target server_wifi/CMakeFiles/remote_move.dir
@@ -816,6 +917,99 @@ server_wifi/CMakeFiles/remote_move.dir/clean:
 
 # clean rule for target.
 clean: server_wifi/CMakeFiles/remote_move.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_cpp"
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# clean rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# clean rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_py"
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -854,6 +1048,41 @@ clean: server_wifi/CMakeFiles/server_wifi.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target server_wifi/CMakeFiles/video_server.dir
+
+# All Build rule for target.
+server_wifi/CMakeFiles/video_server.dir/all:
+	$(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/depend
+	$(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles  23
+	@echo "Built target video_server"
+.PHONY : server_wifi/CMakeFiles/video_server.dir/all
+
+# Include target in all.
+all: server_wifi/CMakeFiles/video_server.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+server_wifi/CMakeFiles/video_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/video_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
+.PHONY : server_wifi/CMakeFiles/video_server.dir/rule
+
+# Convenience name for target.
+video_server: server_wifi/CMakeFiles/video_server.dir/rule
+.PHONY : video_server
+
+# clean rule for target.
+server_wifi/CMakeFiles/video_server.dir/clean:
+	$(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/clean
+.PHONY : server_wifi/CMakeFiles/video_server.dir/clean
+
+# clean rule for target.
+clean: server_wifi/CMakeFiles/video_server.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory mobile_platform
 
 # Convenience name for "all" pass in the directory.
@@ -872,15 +1101,9 @@ mobile_platform/clean: mobile_platform/CMakeFiles/actionlib_msgs_generate_messag
 mobile_platform/clean: mobile_platform/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/comport_test.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/keyboard_publisher.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/manual_move.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/motor_driver_interface.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-mobile_platform/clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/state_publisher.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 mobile_platform/clean: mobile_platform/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
@@ -1116,99 +1339,6 @@ clean: mobile_platform/CMakeFiles/comport_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_py"
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target mobile_platform/CMakeFiles/keyboard_publisher.dir
 
 # All Build rule for target.
@@ -1311,99 +1441,6 @@ mobile_platform/CMakeFiles/motor_driver_interface.dir/clean:
 
 # clean rule for target.
 clean: mobile_platform/CMakeFiles/motor_driver_interface.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# clean rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# clean rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vegard/mar_project_ws/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_py"
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vegard/mar_project_ws/build/CMakeFiles 0
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# clean rule for target.
-mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1626,6 +1663,21 @@ mobile_platform/CMakeFiles/tf_generate_messages_py.dir/clean:
 # clean rule for target.
 clean: mobile_platform/CMakeFiles/tf_generate_messages_py.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory mar_2dnav
+
+# Convenience name for "all" pass in the directory.
+mar_2dnav/all:
+.PHONY : mar_2dnav/all
+
+# Convenience name for "clean" pass in the directory.
+mar_2dnav/clean:
+.PHONY : mar_2dnav/clean
+
+# Convenience name for "preinstall" pass in the directory.
+mar_2dnav/preinstall:
+.PHONY : mar_2dnav/preinstall
 
 #=============================================================================
 # Directory level rules for directory robot_setup_tf

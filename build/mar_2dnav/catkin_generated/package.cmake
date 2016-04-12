@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mar_2dnav")
+set(mar_2dnav_MAINTAINER "vegard <vegard@todo.todo>")
+set(mar_2dnav_DEPRECATED "")
+set(mar_2dnav_VERSION "0.0.0")
+set(mar_2dnav_BUILD_DEPENDS "mar_gazebo" "mobile_platform")
+set(mar_2dnav_RUN_DEPENDS "mar_gazebo" "mobile_platform")
+set(mar_2dnav_BUILDTOOL_DEPENDS "catkin")

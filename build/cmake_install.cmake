@@ -123,6 +123,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/vegard/mar_project_ws/build/bluetooth_chat/cmake_install.cmake")
   INCLUDE("/home/vegard/mar_project_ws/build/server_wifi/cmake_install.cmake")
   INCLUDE("/home/vegard/mar_project_ws/build/mobile_platform/cmake_install.cmake")
+  INCLUDE("/home/vegard/mar_project_ws/build/mar_2dnav/cmake_install.cmake")
   INCLUDE("/home/vegard/mar_project_ws/build/robot_setup_tf/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)

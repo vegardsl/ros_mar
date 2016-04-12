@@ -410,6 +410,45 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named remote_move
 
 # Build rule for target.
@@ -423,6 +462,45 @@ remote_move/fast:
 .PHONY : remote_move/fast
 
 #=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named server_wifi
 
 # Build rule for target.
@@ -434,6 +512,19 @@ server_wifi: cmake_check_build_system
 server_wifi/fast:
 	$(MAKE) -f server_wifi/CMakeFiles/server_wifi.dir/build.make server_wifi/CMakeFiles/server_wifi.dir/build
 .PHONY : server_wifi/fast
+
+#=============================================================================
+# Target rules for targets named video_server
+
+# Build rule for target.
+video_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_server
+.PHONY : video_server
+
+# fast build rule for target.
+video_server/fast:
+	$(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/build
+.PHONY : video_server/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_cpp
@@ -527,45 +618,6 @@ comport_test/fast:
 .PHONY : comport_test/fast
 
 #=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
-
-# Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_py
-
-# Build rule for target.
-geometry_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named keyboard_publisher
 
 # Build rule for target.
@@ -603,45 +655,6 @@ motor_driver_interface: cmake_check_build_system
 motor_driver_interface/fast:
 	$(MAKE) -f mobile_platform/CMakeFiles/motor_driver_interface.dir/build.make mobile_platform/CMakeFiles/motor_driver_interface.dir/build
 .PHONY : motor_driver_interface/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
-
-# Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
-
-# Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_py
-
-# Build rule for target.
-sensor_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named state_publisher
@@ -793,8 +806,15 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... remote_move"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... server_wifi"
+	@echo "... video_server"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_py"
@@ -802,15 +822,9 @@ help:
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... comport_test"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... keyboard_publisher"
 	@echo "... manual_move"
 	@echo "... motor_driver_interface"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... state_publisher"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_lisp"

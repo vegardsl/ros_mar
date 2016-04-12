@@ -49,8 +49,8 @@ void settingUpdateCallback(const geometry_msgs::Twist::ConstPtr& msg)
   */
   float scaledUpLinearSetting, scaledUpAngularSetting;
 
-  scaledUpLinearSetting = (msg->linear.x)*10.0;
-  scaledUpAngularSetting = (msg->angular.z)*10.0;
+  scaledUpLinearSetting = (msg->linear.x)*100.0;
+  scaledUpAngularSetting = (msg->angular.z)*100.0;
 
   linear_speed_setting = (int)scaledUpLinearSetting;
   angular_speed_setting = (int)scaledUpAngularSetting;

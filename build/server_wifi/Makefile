@@ -150,6 +150,48 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 server_wifi/CMakeFiles/remote_move.dir/rule:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/remote_move.dir/rule
 .PHONY : server_wifi/CMakeFiles/remote_move.dir/rule
@@ -164,6 +206,48 @@ remote_move/fast:
 .PHONY : remote_move/fast
 
 # Convenience name for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make server_wifi/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 server_wifi/CMakeFiles/server_wifi.dir/rule:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/server_wifi.dir/rule
 .PHONY : server_wifi/CMakeFiles/server_wifi.dir/rule
@@ -176,6 +260,20 @@ server_wifi: server_wifi/CMakeFiles/server_wifi.dir/rule
 server_wifi/fast:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/server_wifi.dir/build.make server_wifi/CMakeFiles/server_wifi.dir/build
 .PHONY : server_wifi/fast
+
+# Convenience name for target.
+server_wifi/CMakeFiles/video_server.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 server_wifi/CMakeFiles/video_server.dir/rule
+.PHONY : server_wifi/CMakeFiles/video_server.dir/rule
+
+# Convenience name for target.
+video_server: server_wifi/CMakeFiles/video_server.dir/rule
+.PHONY : video_server
+
+# fast build rule for target.
+video_server/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/build
+.PHONY : video_server/fast
 
 src/remote_move.o: src/remote_move.cpp.o
 .PHONY : src/remote_move.o
@@ -225,6 +323,30 @@ src/server_wifi.cpp.s:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/server_wifi.dir/build.make server_wifi/CMakeFiles/server_wifi.dir/src/server_wifi.cpp.s
 .PHONY : src/server_wifi.cpp.s
 
+src/video_server.o: src/video_server.cpp.o
+.PHONY : src/video_server.o
+
+# target to build an object file
+src/video_server.cpp.o:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/src/video_server.cpp.o
+.PHONY : src/video_server.cpp.o
+
+src/video_server.i: src/video_server.cpp.i
+.PHONY : src/video_server.i
+
+# target to preprocess a source file
+src/video_server.cpp.i:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/src/video_server.cpp.i
+.PHONY : src/video_server.cpp.i
+
+src/video_server.s: src/video_server.cpp.s
+.PHONY : src/video_server.s
+
+# target to generate assembly for a file
+src/video_server.cpp.s:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f server_wifi/CMakeFiles/video_server.dir/build.make server_wifi/CMakeFiles/video_server.dir/src/video_server.cpp.s
+.PHONY : src/video_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -232,20 +354,30 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... remote_move"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... server_wifi"
 	@echo "... test"
+	@echo "... video_server"
 	@echo "... src/remote_move.o"
 	@echo "... src/remote_move.i"
 	@echo "... src/remote_move.s"
 	@echo "... src/server_wifi.o"
 	@echo "... src/server_wifi.i"
 	@echo "... src/server_wifi.s"
+	@echo "... src/video_server.o"
+	@echo "... src/video_server.i"
+	@echo "... src/video_server.s"
 .PHONY : help
 
 
