@@ -1,0 +1,8 @@
+prefix=/home/vegard/mar_project_ws/install
+
+Name: rtabmap_ros
+Description: Description of rtabmap_ros
+Version: 0.10.11
+Cflags: -I/home/vegard/mar_project_ws/install/include -I/home/vegard/mar_project_ws/devel/lib/x86_64-linux-gnu/rtabmap-0.11/../../../include/rtabmap-0.11 -I/usr/local/include/opencv -I/usr/local/include
+Libs: -L/home/vegard/mar_project_ws/install/lib -lrtabmap_ros -l:/home/vegard/mar_project_ws/devel/lib/x86_64-linux-gnu/librtabmap_core.so -l:/home/vegard/mar_project_ws/devel/lib/x86_64-linux-gnu/librtabmap_utilite.so -l:/home/vegard/mar_project_ws/devel/lib/x86_64-linux-gnu/librtabmap_gui.so -l:/usr/local/lib/libopencv_videostab.so.2.4.12 -l:/usr/local/lib/libopencv_video.so.2.4.12 -l:/usr/local/lib/libopencv_superres.so.2.4.12 -l:/usr/local/lib/libopencv_stitching.so.2.4.12 -l:/usr/local/lib/libopencv_photo.so.2.4.12 -l:/usr/local/lib/libopencv_ocl.so.2.4.12 -l:/usr/local/lib/libopencv_objdetect.so.2.4.12 -l:/usr/local/lib/libopencv_nonfree.so.2.4.12 -l:/usr/local/lib/libopencv_ml.so.2.4.12 -l:/usr/local/lib/libopencv_legacy.so.2.4.12 -l:/usr/local/lib/libopencv_imgproc.so.2.4.12 -l:/usr/local/lib/libopencv_highgui.so.2.4.12 -l:/usr/local/lib/libopencv_gpu.so.2.4.12 -l:/usr/local/lib/libopencv_flann.so.2.4.12 -l:/usr/local/lib/libopencv_features2d.so.2.4.12 -l:/usr/local/lib/libopencv_core.so.2.4.12 -l:/usr/local/lib/libopencv_contrib.so.2.4.12 -l:/usr/local/lib/libopencv_calib3d.so.2.4.12
+Requires: cv_bridge roscpp rospy sensor_msgs std_msgs std_srvs nav_msgs geometry_msgs visualization_msgs image_transport tf tf_conversions tf2_ros eigen_conversions laser_geometry pcl_conversions pcl_ros nodelet dynamic_reconfigure rviz message_filters class_loader stereo_msgs move_base_msgs costmap_2d octomap_ros

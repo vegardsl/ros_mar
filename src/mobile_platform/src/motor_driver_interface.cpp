@@ -227,7 +227,7 @@ int main(int argc, char **argv)
     //return 0;
   }
 
-  ros::Subscriber sub = n.subscribe("cmd_vel", 1, settingUpdateCallback);
+  ros::Subscriber sub = n.subscribe("cmd_vel_ramped", 1, settingUpdateCallback);
 
   ros::Rate loop_rate(5);
   

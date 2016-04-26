@@ -212,3 +212,7 @@ add_executable(state_publisher src/state_publisher.cpp)
 target_link_libraries(state_publisher ${catkin_LIBRARIES})
 add_dependencies(state_publisher mobile_platform_generate_messages_cpp)
 
+add_executable(velocity_ramp src/velocity_ramp.cpp)
+target_link_libraries(velocity_ramp ${catkin_LIBRARIES})
+add_dependencies(velocity_ramp mobile_platform_generate_messages_cpp)
+

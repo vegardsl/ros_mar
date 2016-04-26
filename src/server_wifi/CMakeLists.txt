@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   image_transport
   cv_bridge
+  web_video_server
 )
 
 ## System dependencies are found with CMake's conventions
@@ -190,7 +191,7 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-find_package(OpenCV)
+find_package(OpenCV2)
 include_directories(${OpenCV_INCLUDE_DIRS})
 #target_link_libraries(my_awesome_library ${OpenCV_LIBRARIES})
 

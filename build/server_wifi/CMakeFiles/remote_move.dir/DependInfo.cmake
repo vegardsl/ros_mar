@@ -23,8 +23,6 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
-  "/usr/local/include/opencv"
-  "/usr/local/include"
   "/home/vegard/mar_project_ws/src/server_wifi/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

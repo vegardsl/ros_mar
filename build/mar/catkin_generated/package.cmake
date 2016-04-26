@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mar")
+set(mar_MAINTAINER "vegard <vegard@todo.todo>")
+set(mar_DEPRECATED "")
+set(mar_VERSION "0.0.0")
+set(mar_BUILD_DEPENDS "web_video_server")
+set(mar_RUN_DEPENDS "web_video_server")
+set(mar_BUILDTOOL_DEPENDS "catkin")

@@ -248,6 +248,48 @@ comport_test/fast:
 .PHONY : comport_test/fast
 
 # Convenience name for target.
+mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 mobile_platform/CMakeFiles/keyboard_publisher.dir/rule:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/keyboard_publisher.dir/rule
 .PHONY : mobile_platform/CMakeFiles/keyboard_publisher.dir/rule
@@ -288,6 +330,48 @@ motor_driver_interface: mobile_platform/CMakeFiles/motor_driver_interface.dir/ru
 motor_driver_interface/fast:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/motor_driver_interface.dir/build.make mobile_platform/CMakeFiles/motor_driver_interface.dir/build
 .PHONY : motor_driver_interface/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 mobile_platform/CMakeFiles/state_publisher.dir/rule:
@@ -386,6 +470,20 @@ tf_generate_messages_py: mobile_platform/CMakeFiles/tf_generate_messages_py.dir/
 tf_generate_messages_py/fast:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/tf_generate_messages_py.dir/build.make mobile_platform/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
+
+# Convenience name for target.
+mobile_platform/CMakeFiles/velocity_ramp.dir/rule:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_platform/CMakeFiles/velocity_ramp.dir/rule
+.PHONY : mobile_platform/CMakeFiles/velocity_ramp.dir/rule
+
+# Convenience name for target.
+velocity_ramp: mobile_platform/CMakeFiles/velocity_ramp.dir/rule
+.PHONY : velocity_ramp
+
+# fast build rule for target.
+velocity_ramp/fast:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/velocity_ramp.dir/build.make mobile_platform/CMakeFiles/velocity_ramp.dir/build
+.PHONY : velocity_ramp/fast
 
 src/comport_test.o: src/comport_test.cpp.o
 .PHONY : src/comport_test.o
@@ -507,6 +605,30 @@ src/state_publisher.cpp.s:
 	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/state_publisher.dir/build.make mobile_platform/CMakeFiles/state_publisher.dir/src/state_publisher.cpp.s
 .PHONY : src/state_publisher.cpp.s
 
+src/velocity_ramp.o: src/velocity_ramp.cpp.o
+.PHONY : src/velocity_ramp.o
+
+# target to build an object file
+src/velocity_ramp.cpp.o:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/velocity_ramp.dir/build.make mobile_platform/CMakeFiles/velocity_ramp.dir/src/velocity_ramp.cpp.o
+.PHONY : src/velocity_ramp.cpp.o
+
+src/velocity_ramp.i: src/velocity_ramp.cpp.i
+.PHONY : src/velocity_ramp.i
+
+# target to preprocess a source file
+src/velocity_ramp.cpp.i:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/velocity_ramp.dir/build.make mobile_platform/CMakeFiles/velocity_ramp.dir/src/velocity_ramp.cpp.i
+.PHONY : src/velocity_ramp.cpp.i
+
+src/velocity_ramp.s: src/velocity_ramp.cpp.s
+.PHONY : src/velocity_ramp.s
+
+# target to generate assembly for a file
+src/velocity_ramp.cpp.s:
+	cd /home/vegard/mar_project_ws/build && $(MAKE) -f mobile_platform/CMakeFiles/velocity_ramp.dir/build.make mobile_platform/CMakeFiles/velocity_ramp.dir/src/velocity_ramp.cpp.s
+.PHONY : src/velocity_ramp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -521,6 +643,9 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... comport_test"
 	@echo "... edit_cache"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -529,6 +654,9 @@ help:
 	@echo "... manual_move"
 	@echo "... motor_driver_interface"
 	@echo "... rebuild_cache"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... state_publisher"
 	@echo "... test"
 	@echo "... tf2_msgs_generate_messages_cpp"
@@ -537,6 +665,7 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... velocity_ramp"
 	@echo "... src/comport_test.o"
 	@echo "... src/comport_test.i"
 	@echo "... src/comport_test.s"
@@ -552,6 +681,9 @@ help:
 	@echo "... src/state_publisher.o"
 	@echo "... src/state_publisher.i"
 	@echo "... src/state_publisher.s"
+	@echo "... src/velocity_ramp.o"
+	@echo "... src/velocity_ramp.i"
+	@echo "... src/velocity_ramp.s"
 .PHONY : help
 
 

@@ -81,23 +81,6 @@ video_server_EXTERNAL_OBJECTS =
 
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: server_wifi/CMakeFiles/video_server.dir/src/video_server.cpp.o
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: server_wifi/CMakeFiles/video_server.dir/build.make
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_viz.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_videostab.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_videoio.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_video.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_superres.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_stitching.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_shape.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_photo.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_objdetect.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_ml.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_imgproc.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_imgcodecs.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_highgui.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_flann.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_features2d.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_core.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_calib3d.so.3.1.0
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /opt/ros/indigo/lib/libimage_transport.so
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /opt/ros/indigo/lib/libmessage_filters.so
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/lib/x86_64-linux-gnu/libtinyxml.so
@@ -140,15 +123,6 @@ video_server_EXTERNAL_OBJECTS =
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_features2d.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_ml.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_highgui.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_videoio.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_imgcodecs.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_flann.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_video.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_imgproc.so.3.1.0
-/home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: /usr/local/lib/libopencv_core.so.3.1.0
 /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server: server_wifi/CMakeFiles/video_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/vegard/mar_project_ws/devel/lib/server_wifi/video_server"
 	cd /home/vegard/mar_project_ws/build/server_wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/video_server.dir/link.txt --verbose=$(VERBOSE)

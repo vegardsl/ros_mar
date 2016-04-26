@@ -1,0 +1,59 @@
+<launch>
+
+  <arg name="kinect" default="true"/>
+  <arg name="laser" default="true"/>
+  <arg name="remote" default="true"/>
+
+
+  <group if="$(arg kinect)">
+    <include file="$(find openni_launch)/launch/openni.launch">
+      <arg name="camera" value="openni"/>
+    </include>
+  </group>
+
+<!-- Open correct port for the Hokuyo laser -->
+<node name="hokuyo_conf" pkg="mar" type="hokuyo_conf.sh" />
+  
+<node if="$(arg laser)"
+  pkg="hokuyo_node"
+  name="hokuyo_node"
+  type="hokuyo_node">
+</node>
+
+<node name="foo_throttler" type="throttle" pkg="topic_tools" args="messages /openni/rgb/image_raw 10 /image_raw_throttled" 
+/>
+
+<node if="$(arg remote)"
+  pkg="web_video_server"
+   name="web_video_server"
+   type="web_video_server"
+   args="http://192.168.0.110:8080/stream?topic=/image_raw_throttled&amp;quality=50&amp;width=320&amp;height=240">
+</node>
+
+<node pkg="tf" type="static_transform_publisher" name="scanmatcher_to_base_link" 
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /scanmatcher_frame /base_link 100" />
+
+<!--<node pkg="tf" type="static_transform_publisher" name="laser_to_base_link" 
+    args="0.36 0 0.0375 0.0 0.0 0.0 /laser /base_link 100" /> -->
+
+ <param name="robot_description" command="cat $(find mar_description)/urdf/mar_model.urdf" />
+
+  <node name="robot_state_publisher" 
+         pkg="robot_state_publisher" 
+        type="state_publisher" />
+
+  <node name="velocity_ramp"
+         pkg="mobile_platform"
+        type="velocity_ramp" />
+
+
+  <node name="motor_driver_interface"
+         pkg="mobile_platform"
+        type="motor_driver_interface" />
+
+  <node name="server_wifi"
+        pkg="server_wifi"
+        type="server_wifi" 
+        args="2000"/>
+
+</launch>
